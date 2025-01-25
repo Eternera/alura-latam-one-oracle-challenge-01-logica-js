@@ -12,17 +12,7 @@ Pasos para jugar:
 3. Recibe pistas: El juego te dirá si el número secreto es mayor o menor que el que ingresaste.
 4. Hazlo en menos intentos: ¡Intenta adivinarlo en el menor número de intentos!
 
-🔧 ¿Cómo instalarlo?
-Si quieres probar el juego en tu computadora, sigue estos sencillos pasos:
 
-1. Clona este repositorio a tu máquina:
-git clone https://github.com/tu-usuario/juego-adivina-el-numero.git
-
-2. Navega el directorio del proyecto:
-cd juego-adivina-el-numero
-
-3. Abre el archivo index.html en tu navegador web favorito. ¡Y listo, ya puedes jugar!
-   
 🧑‍🤝‍🧑 ¿Quieres contribuir?
 ¡Genial! Si tienes alguna idea para mejorar el juego o quieres añadir nuevas características, siéntete libre de contribuir. Aquí te dejo los pasos para hacerlo:
 
@@ -31,6 +21,4 @@ cd juego-adivina-el-numero
 3. Realiza tus cambios y añade tus mejoras.
 4. Haz un pull request para revisar y fusionar tus cambios.
 
-📜 Licencia
-Este proyecto está bajo la Licencia MIT. Si quieres más detalles, consulta el archivo LICENSE para saber cómo puedes usarlo y compartirlo.
-
+¡Diviértete jugando! 🎮
