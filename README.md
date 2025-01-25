@@ -1,5 +1,6 @@
 # alura-latam-one-oracle-challenge-01-logica-js
 Juego de Adivinar el Número
+
 ¡Bienvenido al proyecto de Adivina el Número! 🎉 Este es un juego interactivo donde podrás adivinar un número secreto generado aleatoriamente dentro de un rango que tú mismo puedes elegir. ¡Atrévete a retar a tus amigos y ver quién es el mejor adivinador!
 
 🚀 ¿Cómo jugar?
