@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de Adivinar el Número</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container__contenido">
+        <img
+          src="./img/robot.png"
+          alt="Robot"
+          class="container__imagen-robot"
+        />
+        <div class="container__informaciones">
+          <div class="container__texto">
+            <h1>
+              <span class="container__texto-azul">Adivina el número!</span>
+            </h1>
+            <h2>Te reto a adivinar el número secreto.</h2>
+
+            <!-- Campo para ingresar el rango -->
+            <input
+              type="number"
+              id="rango"
+              placeholder="Ingresa el rango máximo (Ej. 100)"
+              value="100"
+              min="2"
+            />
+
+            <p id="mensaje">¡Elige un rango y empieza a jugar!</p>
+            <input
+              type="number"
+              id="numero"
+              placeholder="Introduce un número"
+            />
+            <button id="adivinar">Adivinar</button>
+            <p>Intentos: <span id="intentos">0</span></p>
+            <p id="pista"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

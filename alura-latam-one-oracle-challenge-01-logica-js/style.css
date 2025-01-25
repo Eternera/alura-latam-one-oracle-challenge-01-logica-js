@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background: linear-gradient(
+    #1354a5 0%,
+    #041832 33.33%,
+    #041832 66.67%,
+    #01080e 100%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+body::before {
+  background-image: url("img/code.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  border: 1px solid #1875e8;
+  box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+  background-image: url("img/Ruido.png");
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
+
+.container__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__informaciones {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.container__boton {
+  border-radius: 16px;
+  background: #1875e8;
+  padding: 16px 24px;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.container__boton:hover {
+  background: #165ba2;
+}
+
+.container__texto {
+  margin: 16px 0;
+}
+
+.container__texto-azul {
+  color: #1875e8;
+}
+
+h1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+h2,
+p,
+button {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #1875e8;
+  background: transparent;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#trophy {
+  width: 50px;
+  height: auto;
+  margin-top: 10px;
+}
+
+#mensaje {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#pista {
+  font-size: 18px;
+  color: #ddd;
+  margin-top: 10px;
+}
+
+/* Nuevas reglas para el campo de rango */
+input[type="number"] {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 12px;
+  border: 2px solid #1875e8;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  input,
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .container__contenido {
+    width: 100%;
+    align-items: center;
+  }
+
+  .container__informaciones {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .container {
+    height: auto;
+    padding: 10px;
+  }
+
+  .container__boton {
+    font-size: 18px;
+    padding: 12px;
+  }
+}
