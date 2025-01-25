@@ -16,7 +16,7 @@ Pasos para jugar:
 Si quieres probar el juego en tu computadora, sigue estos sencillos pasos:
 
 1. Clona este repositorio a tu máquina:
-git clone https://github.com/Eternera/juego-adivina-el-numero.git
+git clone https://github.com/tu-usuario/juego-adivina-el-numero.git
 
 2. Navega el directorio del proyecto:
 cd juego-adivina-el-numero
